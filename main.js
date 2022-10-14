@@ -93,10 +93,6 @@ let update = (id) => {
 
 let calculation = () => {
     let cartIcon = document.getElementById("cartAmount");
-
     let basketSum = basket.map((x) => x.item)
     cartIcon.innerHTML = basketSum.reduce((a, b) => a + b, 0);
-    //console.log(basketSum.reduce((a, b) => a + b, 0));
-
-
-}
+} 
