@@ -114,3 +114,18 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* style for cart page */
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+}
