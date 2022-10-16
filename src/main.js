@@ -1,6 +1,6 @@
 let shop = document.getElementById("shop");
 
-var basket = JSON.parse(window.localStorage.getItem("data")) || [];
+var basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let generateShop = () => {
     return (shop.innerHTML =
@@ -44,6 +44,7 @@ let increment = (id) => {
     } else {
         search.item += 1;
     }
+
     update(selectedItem);
     localStorage.setItem("data", JSON.stringify(basket));
 }
